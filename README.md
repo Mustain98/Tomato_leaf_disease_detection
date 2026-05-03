@@ -1,3 +1,16 @@
+Introduction:
+Tomato leaf disease detection is an important application of computer vision in agriculture. Tomato plants are highly vulnerable to different leaf diseases, and early identification can help farmers take proper action before the disease spreads and damages crop production. This project presents a CNN-based tomato leaf disease detection tool that can classify tomato leaf images into six different categories.
+The system uses a deep learning model based on EfficientNet-B0, a convolutional neural network architecture, to analyze leaf images and predict the disease class. Users can upload an image of a tomato leaf through a web interface, and the trained model processes the image to identify whether the leaf is healthy or affected by a specific disease.
+The tool mainly detects six classes:
+1. Bacterial Spot
+2. Early Blight
+3. Healthy
+4. Late Blight
+5. Septoria Leaf Spot
+6. Yellow Leaf Curl Virus
+The main goal of this project is to provide a simple, fast, and user-friendly system for tomato leaf disease classification. By combining a CNN model with a web application, the tool can assist users in quickly identifying common tomato leaf diseases from images.
+
+
 Training and Evaluation Report
 
 Model: EfficientNet-B0
